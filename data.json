@@ -1,58 +1,67 @@
 {
   "artist": {
-    "name": "Michael Gold",
-    "avatar": "/images/avatar.jpg",
-    "shortBio": "Generative Artist",
+    "name": "Hershel Carbajal",
+    "avatar": "/images/avatar.png",
+    "shortBio": "Aspiring Paleontologist",
     "socials": [
       { "icon": "FaHome", "url": "https://mike.gold" },
-      { "icon": "FaTwitter", "url": "https://twitter.com/michaelgold" },
-      { "icon": "FaGithub", "url": "https://github.com/michaelgold" },
-      { "icon": "FaLinkedin", "url": "https://linkedin.com/in/gold1" },
-      { "icon": "FaUniversity", "url": "https://sva.edu/faculty/michael-gold" }
+      { "icon": "FaGithub", "url": "https://github.com/acarbajalsva" },
+      {
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/in/hershel-carbajal-rodriguez-290441151/"
+      }
     ]
   },
   "project": {
-    "name": "AR Gallery Example"
+    "name": "Frog Cowboys AR Gallery"
   },
   "models": [
     {
-      "name": "Gold Cube",
-      "glbFile": "/assets/gold-cube.glb",
+      "name": "Tall Flames",
+      "glbFile": "/assets/Fire-A.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "gold" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "Fire Height", "value": "4.5" },
+        { "trait_type": "Flame Density", "value": "0.347" },
+        { "trait_type": "Flame Intensity", "value": "1.4" },
+        { "trait_type": "Emission Strength", "value": "12.5" },
+        { "trait_type": "RGB Influence", "value": "0.331" },
+        { "trait_type": "RGB", "value": "R: 95.8, G: 255, B: 103.2" }
       ]
     },
     {
-      "name": "Silver Cube",
-      "glbFile": "/assets/silver-cube.glb",
+      "name": "Large Campfire Flames",
+      "glbFile": "/assets/Fire-B.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "silver" },
-        { "trait_type": "material", "value": "metal" }
+        { "trait_type": "Fire Height", "value": "1.5" },
+        { "trait_type": "Flame Density", "value": "0.512" },
+        { "trait_type": "Flame Intensity", "value": "2.6" },
+        { "trait_type": "Emission Strength", "value": "12.5" },
+        { "trait_type": "RGB Influence", "value": "0.0" },
+        { "trait_type": "RGB", "value": "R: 0, G: 0, B: 0" }
       ]
     },
     {
-      "name": "Red Cube",
-      "glbFile": "/assets/red-cube.glb",
+      "name": "Small Campfire Flames",
+      "glbFile": "/assets/Fire-C.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "red" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "Fire Height", "value": "0.3" },
+        { "trait_type": "Flame Density", "value": "0.383" },
+        { "trait_type": "Flame Intensity", "value": "1.2" },
+        { "trait_type": "Emission Strength", "value": "12" },
+        { "trait_type": "RGB Influence", "value": "0.0" },
+        { "trait_type": "RGB", "value": "R: 0, G: 0, B: 0" }
       ]
     },
     {
-      "name": "Green Cube",
-      "glbFile": "/assets/green-cube.glb",
+      "name": "Pink Flames",
+      "glbFile": "/assets/Fire-D.glb",
       "attributes": [
-        { "trait_type": "shape", "value": "cube" },
-        { "trait_type": "size", "value": "small" },
-        { "trait_type": "color", "value": "green" },
-        { "trait_type": "material", "value": "plastic" }
+        { "trait_type": "Fire Height", "value": "0.5" },
+        { "trait_type": "Flame Density", "value": "0.453" },
+        { "trait_type": "Flame Intensity", "value": "1.1" },
+        { "trait_type": "Emission Strength", "value": "12.5" },
+        { "trait_type": "RGB Influence", "value": "0.375" },
+        { "trait_type": "RGB", "value": "R: 246.4, G: 30.8, B: 255" }
       ]
     }
   ]
