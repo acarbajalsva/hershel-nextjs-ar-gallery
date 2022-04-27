@@ -4,7 +4,7 @@
     "avatar": "/images/avatar.png",
     "shortBio": "Aspiring Paleontologist",
     "socials": [
-      { "icon": "FaHome", "url": "https://mike.gold" },
+      { "icon": "FaHome", "url": "https://hershel-froggy-cowboys.vercel.app/" },
       { "icon": "FaGithub", "url": "https://github.com/acarbajalsva" },
       {
         "icon": "FaLinkedin",
